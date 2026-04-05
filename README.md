@@ -1,8 +1,19 @@
-NT101 Crypto App
+# NT101 Crypto App
 
 Ứng dụng desktop sử dụng Tkinter để minh họa trực quan hai thuật toán mật mã cơ bản:
 - Playfair
 - RSA (mục đích học tập)
+
+Môn học: `An toàn mạng máy tính - NT101.Q22`
+
+Giảng viên phụ trách: `Tô Nguyễn Nhật Quang`
+
+Niên khóa: `Học kỳ 2, 2025-2026`
+
+Thành viên nhóm:
+1. `Mai Nguyễn Bình Tân`
+2. `Lê Huy Hiếu`
+3. `Phạm Thành Danh`
 
 ## Mục tiêu
 
@@ -20,6 +31,12 @@ NT101 Crypto App
 
 - Python 3.9 trở lên.
 - Tkinter (thường có sẵn theo Python cài từ hệ điều hành).
+
+Đối với người dùng **Ubuntu**, do Tkinter không có sẵn nên cần chạy dòng lệnh sau:
+```bash
+sudo apt install python3-tk
+```
+
 
 ## Cách chạy
 
@@ -45,10 +62,6 @@ python3 main.py
 - Hỗ trợ xuất báo cáo kết quả với thông tin khóa và bản mã/bản rõ.
 - Có nút hướng dẫn `?`, sinh dữ liệu ngẫu nhiên, xóa nhanh và sao chép.
 
-### Giới thiệu
-
-- Hiển thị thông tin môn học, giảng viên, niên khóa, thành viên nhóm.
-- Mô tả ngắn gọn mục tiêu và phạm vi ứng dụng.
 
 ## Ghi chú kỹ thuật
 
@@ -60,7 +73,4 @@ python3 main.py
 - Ứng dụng phục vụ học tập, không thay thế thư viện mật mã cho môi trường thực tế.
 - RSA đang mã hóa theo từng ký tự, chưa áp dụng padding chuẩn như OAEP/PSS.
 
-## Tác giả
-
-Nhóm thực hiện môn An toàn mạng máy tính - NT101.Q22.
  
