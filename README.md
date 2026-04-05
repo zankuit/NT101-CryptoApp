@@ -33,9 +33,6 @@ Thành viên nhóm:
 NT101-CryptoApp/
 ├── main.py
 ├── ui.py
-├── README.md
-├── .gitignore
-├── BAO_CAO_UNG_DUNG.md
 └── algorithms/
 	├── playfair.py
 	└── rsa.py
