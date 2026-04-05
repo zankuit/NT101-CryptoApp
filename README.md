@@ -27,6 +27,29 @@ Thành viên nhóm:
 - `algorithms/playfair.py`: thuật toán Playfair.
 - `algorithms/rsa.py`: thuật toán RSA.
 
+### Tổ chức file
+
+```text
+NT101-CryptoApp/
+├── main.py
+├── ui.py
+├── README.md
+├── .gitignore
+├── BAO_CAO_UNG_DUNG.md
+└── algorithms/
+	├── playfair.py
+	└── rsa.py
+```
+
+Mô tả nhanh:
+- `main.py`: chạy ứng dụng và khởi tạo giao diện.
+- `ui.py`: quản lý toàn bộ tab, widget, sự kiện, đọc/ghi file và xuất báo cáo.
+- `algorithms/playfair.py`: xử lý chuẩn hóa dữ liệu, tạo keysquare và mã hóa/giải mã Playfair.
+- `algorithms/rsa.py`: xử lý sinh khóa, mã hóa/giải mã RSA và kiểm tra dữ liệu đầu vào.
+- `README.md`: tài liệu hướng dẫn sử dụng.
+- `BAO_CAO_UNG_DUNG.md`: tài liệu hệ thống phục vụ viết báo cáo môn học.
+- `.gitignore`: quy tắc bỏ qua file không cần theo dõi bằng Git.
+
 ## Yêu cầu hệ thống
 
 - Python 3.9 trở lên.
