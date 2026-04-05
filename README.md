@@ -43,9 +43,6 @@ Mô tả nhanh:
 - `ui.py`: quản lý toàn bộ tab, widget, sự kiện, đọc/ghi file và xuất báo cáo.
 - `algorithms/playfair.py`: xử lý chuẩn hóa dữ liệu, tạo keysquare và mã hóa/giải mã Playfair.
 - `algorithms/rsa.py`: xử lý sinh khóa, mã hóa/giải mã RSA và kiểm tra dữ liệu đầu vào.
-- `README.md`: tài liệu hướng dẫn sử dụng.
-- `BAO_CAO_UNG_DUNG.md`: tài liệu hệ thống phục vụ viết báo cáo môn học.
-- `.gitignore`: quy tắc bỏ qua file không cần theo dõi bằng Git.
 
 ## Yêu cầu hệ thống
 
@@ -83,12 +80,12 @@ python3 main.py
 - Có nút hướng dẫn `?`, sinh dữ liệu ngẫu nhiên, xóa nhanh và sao chép.
 
 
-## Ghi chú kỹ thuật
+## Ghi chú 
 
 - Ứng dụng đã loại bỏ `eval` khi xử lý ciphertext và dùng parse an toàn (`ast.literal_eval`).
 - RSA dùng kiểm tra tính hợp lệ khóa và tính nghịch đảo modular bằng Extended Euclidean Algorithm.
 
-## Giới hạn hiện tại
+## Giới hạn 
 
 - Ứng dụng phục vụ học tập, không thay thế thư viện mật mã cho môi trường thực tế.
 - RSA đang mã hóa theo từng ký tự, chưa áp dụng padding chuẩn như OAEP/PSS.
